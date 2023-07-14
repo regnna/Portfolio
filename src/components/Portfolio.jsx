@@ -56,8 +56,8 @@ const Portfolio = () => {
   {
     id: 6,
     src: MRS,
-    demo: "https://regnna-semantic-search-using-gpt-main-op2cli.streamlit.app/",
-    code: "https://github.com/regnna/semantic-search-using-GPT"
+    demo: "https://github.com/regnna/movies_recommendation",
+    code: "https://github.com/regnna/movies_recommendation"
 
   },
   
