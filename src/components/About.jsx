@@ -16,7 +16,7 @@ const About = () => {
               <br/>
               I have complited my Higher Secondary from Bankura Goenka vidyayatan with 87.8% with PCM background
               <br/>
-              And I obtained 91.9% on my 10th from the same school 
+              And I obtained 91.9% on my 10th from the same 
               <br/>
               Playing chess,updating myself with latest Technlogy, latest entertainment are among my hobbies .
             {/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum */}
