@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='my-23 animate-scaleImage'>
+            <div className='my-23 animate-img'>
                 <img src={HeroImage} alt='my Profile' className='rounded-2xl ml-auto mx-auto my-auto h-auto w-2/3 md:w-full sm:my-5'></img>
             </div>
         </div>
