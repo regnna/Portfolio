@@ -23,7 +23,7 @@ module.exports = {
       
           '100%': {
             transform: 'scale(.8)',
-            filter: 'grayscale(0)'
+            filter: 'grayscale(1)'
           },
         },
         wave: {
