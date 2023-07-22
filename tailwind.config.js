@@ -18,7 +18,7 @@ module.exports = {
           '50%' : {
             transform: 'scale(1.1)',
             filter: 'grayscale(1)',
-            boxshadow: '3px 3px 10px black',
+            // boxshadow: '3px 3px 10px black',
           },
       
           '100%': {
