@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroImage from "../assets/HeroImage.png";
+import Hero from "../assets/Hero.png";
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md'
 // import Portfolio from './Portfolio';
 import { Link } from 'react-scroll';
@@ -25,7 +26,7 @@ const Home = () => {
             </div>
 
             <div className='my-23 '>
-                <img src={HeroImage} alt='my Profile' className='rounded-2xl ml-auto mx-auto my-auto h-auto w-2/3 md:w-full sm:my-5'></img>
+                <img src={Hero} alt='my Profile' className='rounded-2xl ml-auto mx-auto my-auto h-auto w-2/3 md:w-full sm:my-5'></img>
             </div>
         </div>
         
