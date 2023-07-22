@@ -11,7 +11,7 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full my-6 '>
                 <h2 className='text-4xl sm:text-7xl font-bold text-yellow-50 justify-center px-6 my-6'>I'm a Data vigilante</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                  <div className='animate-w-hand'>Machine Learning Enthusiast</div>
+                  {/* <div className='animate-w-hand'>Machine Learning Enthusiast</div> */}
                 Machine Learning Enthusiast | AI Devotee | Problem Solver | Front-End Developer | Python Developer | Spring-Boot Seasoned
                 </p>
                 <div>
