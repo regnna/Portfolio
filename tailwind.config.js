@@ -12,12 +12,12 @@ module.exports = {
         scaleImage: {
           '0%' : {
             filter: 'grayscale(0)',
-            transform: 'scale(1)'
+            transform: 'scale(0)'
           },
       
           '50%' : {
-            transform: 'scale(1.1)',
-            filter: 'grayscale(1)',
+            transform: 'scale(.8)',
+            filter: 'grayscale(0)',
             // boxshadow: '3px 3px 10px black',
           },
       
