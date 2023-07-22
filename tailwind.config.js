@@ -22,7 +22,7 @@ module.exports = {
           },
       
           '100%': {
-            transform: 'scale(1)',
+            transform: 'scale(.8)',
             filter: 'grayscale(0)'
           },
         },
