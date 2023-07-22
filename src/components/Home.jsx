@@ -9,7 +9,7 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full my-6 '>
-                <h2 className='text-4xl sm:text-7xl sm:py-10 font-bold text-yellow-50 justify-center px-6 my-6'>I'm a Data vigilante</h2>
+                <h2 className='sm:py-10 text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-6 my-6'>I'm a Data vigilante</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                   
                 Machine Learning Enthusiast | AI Devotee | Problem Solver | Front-End Developer | Python Developer | Spring-Boot Seasoned
