@@ -15,8 +15,8 @@ const Home = () => {
                 </p>
                 <div>
                 
-                <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-lime-400 to-cyan-500 cursor-pointer animate-pulse'>
-                Portfolio
+                <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-lime-400 to-cyan-500 cursor-pointer '>
+                <div className="animate-pulse">Portfolio</div>
                      <span className='group-hover:rotate-90 duration-300'><MdKeyboardDoubleArrowRight size={25} className='ml-1'/></span>
                 </Link>
                 
