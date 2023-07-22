@@ -4,9 +4,27 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
+        
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },
           '50%': { transform: 'rotate(3deg)' },
+        },
+        scaleImage: {
+          '0%' : {
+            filter: 'grayscale(0)',
+            transform: 'scale(1)'
+          },
+      
+          '50%' : {
+            transform: 'scale(1.1)',
+            filter: 'grayscale(1)',
+            boxshadow: '3px 3px 10px black',
+          },
+      
+          '100%': {
+            transform: 'scale(1)',
+            filter: 'grayscale(0)'
+          },
         },
         wave: {
           '0%': { transform: 'rotate(0.0deg)' },
