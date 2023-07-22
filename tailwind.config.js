@@ -12,18 +12,18 @@ module.exports = {
         scaleImage: {
           '0%' : {
             filter: 'grayscale(0)',
-            transform: 'scale(.8)'
+            transform: 'scale(1)'
           },
       
           '50%' : {
             transform: 'scale(1.1)',
-            filter: 'grayscale(0)',
+            filter: 'grayscale(0.8)',
             // boxshadow: '3px 3px 10px black',
           },
       
           '100%': {
             transform: 'scale(.8)',
-            filter: 'grayscale(1)'
+            filter: 'grayscale(0)'
           },
         },
         wave: {
