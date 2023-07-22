@@ -39,7 +39,7 @@ module.exports = {
       },
       animation: {
         'waving-hand': 'wiggle 2s linear infinite',
-        'img':'scaleImage 2s linear infinite',
+        'img':'scaleImage 5s linear infinite',
         'w-hand': 'wave 2s linear infinite',
       },
     },
