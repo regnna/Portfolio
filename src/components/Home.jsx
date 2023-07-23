@@ -19,11 +19,13 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full my-6 '>
                 <h2 className='sm:my-100 text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-3 my-6'>HI!, Ritam here </h2>
-                <h2 className=' text-2xl sm:text-2xl   text-yellow-50 justify-center px-6 my-6'> I'm a <span strings={typeDataStrings}
-      typeSpeed={100}
-      backSpeed={80}
-      backDelay={1000}
-      loop></span></h2>
+                <h2 className=' text-2xl sm:text-2xl   text-yellow-50 justify-center px-6 my-6'> I'm a <span><Typed
+          strings={typeDataStrings}
+          typeSpeed={100}
+          backSpeed={80}
+          backDelay={1000}
+          loop
+        /></span></h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                   
                 Machine Learning Enthusiast | AI Devotee | Problem Solver | Front-End Developer | Python Developer | Spring-Boot Seasoned
