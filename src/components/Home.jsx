@@ -13,13 +13,13 @@ const Home = () => {
                 <h2 className='sm:my-100 text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-6 my-6'>HI!, Ritam here </h2>
                 <h2 className=' text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-6 my-6'> I'm a Data vigilante</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                  Will it show ???
+                  
                 Machine Learning Enthusiast | AI Devotee | Problem Solver | Front-End Developer | Python Developer | Spring-Boot Seasoned
                 </p>
                 <div>
                 
                 <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-lime-400 to-cyan-500 cursor-pointer '>
-                Portfolioo
+                Portfolio
                      <span className='group-hover:rotate-90 duration-300'><MdKeyboardDoubleArrowRight size={25} className='ml-1'/></span>
                 </Link>
                 
