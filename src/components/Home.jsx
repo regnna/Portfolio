@@ -13,7 +13,7 @@ const Home = () => {
                 <h2 className='sm:my-100 text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-6 my-6'>HI!, Ritam here </h2>
                 <h2 className=' text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-6 my-6'> I'm a Data vigilante</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                  
+                  Will it show ???
                 Machine Learning Enthusiast | AI Devotee | Problem Solver | Front-End Developer | Python Developer | Spring-Boot Seasoned
                 </p>
                 <div>
