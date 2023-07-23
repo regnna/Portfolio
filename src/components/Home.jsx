@@ -18,7 +18,7 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full my-6 '>
-                <h2 className='sm:my-100 text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-3 my-6'>HI!, Ritam here </h2>
+                <h2 className='sm:my-100 text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-3 my-6'>HI!, Ritan here </h2>
                 <h2 className=' text-2xl sm:text-2xl   text-yellow-50 justify-center px-6 my-6'> I'm a <span><Typed
           strings={typeDataStrings}
           typeSpeed={100}
