@@ -9,18 +9,20 @@ import { Link } from 'react-scroll';
 const Home = () => {
   const typeDataStrings = [
     "Passionate Coder",
-    "Full Stack Developer",
-    "Web Developer",
-    "Backend Developer",
-    "Learner",
+    "Machine Learning Enthusiast",
+    "Python Developer ",
+    "Problem Solver",
+    "Technology Aficionado",
     "Data vigilante",
+    "AI Devotee",
+    "Front-End Developer"
   ];
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full my-6 '>
-                <h2 className='sm:my-100 text-4xl sm:text-7xl  font-bold text-yellow-50 justify-center px-3 my-6'>HI!, Ritan here </h2>
-                <h2 className=' text-2xl sm:text-2xl   text-yellow-50 justify-center px-6 my-6'> I'm a <span><Typed
+                <h2 className='sm:my-100 text-4xl sm:text-3xl  font-bold text-yellow-50 justify-center px-3 my-6'>HI!, Ritan here </h2>
+                <h2 className=' text-2xl sm:text-2xl   text-yellow-50 justify-center  my-6'> I'm a <span><Typed
           strings={typeDataStrings}
           typeSpeed={100}
           backSpeed={80}
@@ -28,8 +30,7 @@ const Home = () => {
           loop
         /></span></h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                  
-                Machine Learning Enthusiast | AI Devotee | Problem Solver | Front-End Developer | Python Developer | Spring-Boot Seasoned
+                I'm a Computer Science student and here is my portfolio website. Here you'll learn about my journey till now. 
                 </p>
                 <div>
                 
