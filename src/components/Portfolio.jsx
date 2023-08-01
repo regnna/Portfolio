@@ -5,7 +5,7 @@ import blog from '../assets/portfolio/blog.png'
 import weather from '../assets/portfolio/weather.png'
 import CWP from '../assets/portfolio/CWP.png'
 import MRS from '../assets/portfolio/MRS.png'
-
+import cwpd from '../assets/portfolio/cwpd.png'
 
 function LinkButton(props) {
   const handleLinkClick = () => {
@@ -48,7 +48,7 @@ const Portfolio = () => {
   },
   {
     id: 5,
-    src: CWP,
+    src: cwpd,
     demo: "https://huggingface.co/spaces/Regnna/CHAT-WITH-PDFs",
     code: "https://github.com/regnna/chat-with-PDFs"
 
