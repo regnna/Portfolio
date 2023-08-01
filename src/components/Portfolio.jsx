@@ -5,7 +5,7 @@ import blog from '../assets/portfolio/blog.png'
 import weather from '../assets/portfolio/weather.png'
 import CWP from '../assets/portfolio/CWP.png'
 import MRS from '../assets/portfolio/MRS.png'
-import cwpd from '../assets/portfolio/cwpd.png'
+import cwpd from '../assets/cwpd.png'
 
 function LinkButton(props) {
   const handleLinkClick = () => {
