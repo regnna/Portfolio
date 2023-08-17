@@ -38,7 +38,7 @@ const SocialLinks = () => {
             child:(
                 <> Resume <BsFillPersonLinesFill size={30}/> </>
             ),
-            href: '/Resume (1).pdf',
+            href: '/Resume 23.7.23.pdf',
             style: 'rounded-br-md',
             download: true,
 
