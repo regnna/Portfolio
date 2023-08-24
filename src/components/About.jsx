@@ -4,14 +4,18 @@ const About = () => {
   return (
     <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
+            <div className='flex justify-center pb-8'>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500 text-yellow-200'>
                     About
                 </p>
             </div>
-            <p className='text-xl mt-15'>
+            <p className='text-xl mt-15 '>
               I am Ritam Chatterjee from West Bengal, India
               <br/>
+              {/* <br/><div class="w-screen-35 bg-blue-300">
+ <p>Hello world its slg</p>
+</div> */}
+
               I'm persuing my Btech from Haldia Institute of Technlogy in the field of Cmputer Science Engineering with 9.41 CGPA
               <br/>
               I have complited my Higher Secondary from Bankura Goenka vidyayatan with 87.8% with PCM background

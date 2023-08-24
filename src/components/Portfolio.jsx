@@ -3,7 +3,6 @@ import search from '../assets/portfolio/search.png'
 import w_chat from '../assets/portfolio/w_chat.png'
 import blog from '../assets/portfolio/blog.png'
 import weather from '../assets/portfolio/weather.png'
-import CWP from '../assets/portfolio/CWP.png'
 import MRS from '../assets/portfolio/MRS.png'
 import cwpd from '../assets/cwpd.png'
 
@@ -63,12 +62,13 @@ const Portfolio = () => {
   
 ]
   return (
-    <div name="portfolio" className='w-full md:h-screen bg-gradient-to-b from-black to-gray-800 text-white'>
-<div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-  <div className='pb-5'> 
-    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>portfolio</p>
-    <p className='py-6'>Check out some of my work, right here :-)</p>
+    <div name="portfolio" className='w-full md:h-screen bg-gradient-to-b from-black to-gray-800 text-white '>
+<div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full'>
+  <div className=' flex justify-center '> 
+    <p className='text-4xl font-bold inline border-b-4 border-gray-500 text-yellow-200'>portfolios</p>
   </div>
+
+    <p className='py-6 px-8'>Check out some of my work, right here :-)</p>
 
   <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-10 px-12 sm:px-8 mb-12'>
 {

@@ -13,7 +13,7 @@ const NavBar = () => {
         },
         {
             id: 2,
-            link: "about",
+            link: "experience",
         },
         {
             id: 3,
@@ -21,7 +21,7 @@ const NavBar = () => {
         },
         {
             id: 4,
-            link: "experience",
+            link: "about",
         },
         {
             id: 5,
@@ -29,16 +29,16 @@ const NavBar = () => {
         },
     ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 bg-black fixed">
-        <div>
-            <h1 className="text-5xl font-signature ml-2 text-yellow-100">
+    <div className="flex justify-between items-center  w-full h-[5vw] px-[1vw] sm:pt-[6dvh]  md:pt-[3dvh] lg:pt-[1dvh] w-screen-30:pt-[6dvh] bg-black  fixed">
+        <div >
+            <h1 className="text-5xl font-signature  text-yellow-100">
                 <div className='animate-pulse'>Ritam Chatterjee</div>
             </h1>
         </div>
         
             <ul className='hidden md:flex'>
             {links.map(({id,link}) => (
-                <li key={id} className='px-4 cursor-pointer capitalize font-medium text-yellow-200 hover:scale-105 duration-200'>
+                <li key={id} className='px-4 cursor-pointer capitalize font-medium text-yellow-200 hover:scale-125 duration-200 hover:text-orange-300'>
                     <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
             ))} 

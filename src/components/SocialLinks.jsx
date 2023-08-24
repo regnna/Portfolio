@@ -36,7 +36,7 @@ const SocialLinks = () => {
         {
             id:4,
             child:(
-                <> Resume <BsFillPersonLinesFill size={30}/> </>
+                <> Resume <BsFillPersonLinesFill size={30 }/> </>
             ),
             href: '/Resume 23.7.23.pdf',
             style: 'rounded-br-md',
@@ -46,13 +46,13 @@ const SocialLinks = () => {
 
     ]
     return (
-        <div className="hidden lg:flex flex-col top-[35%] left-19  fixed ">
+        <div className="hidden lg:flex w-screen-60:hidden  flex-col top-[35%] left-19  fixed ">
           <ul>
             {links.map(({ id, child, href, style, download }) => (
               <li
                 key={id}
                 className={
-                  `flex justify-between items-center w-[11vw] h-[4vw] px-4 ml-[-7vw] hover:ml-[-1vw] hover:rounded-md duration-300 bg-gray-500 
+                  `flex justify-between items-center w-[11vw] md:w-[-11vw] md:ml-[-7vw] md:px-4  h-[4vw] px-4 ml-[-7vw] hover:ml-[-1vw] hover:rounded-md duration-300 bg-gray-500 
                   ${style}`
                 }
               >
