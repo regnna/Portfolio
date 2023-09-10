@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from "../assets/HeroImage.png";
+import HeroImage from "../assets/profile-pic (1).png";
 import Typed from 'react-typed';
 
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md'
