@@ -32,7 +32,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center  w-full h-[5vw] px-[3vw] sm:pt-[1dvh]  md:pt-[3dvh] lg:pt-[1dvh] w-screen-30:pt-[1dvh] bg-black fixed">
         <div >
             <h1 className="text-5xl font-signature  text-yellow-100">
-                <div className='animate-pulse mt-15 md:mt-0 lg:mt-0'>Ritam Chatterjee</div>
+                <div className='animate-pulse mt-17 md:mt-0 lg:mt-0'>Ritam Chatterjee</div>
             </h1>
         </div>
         
@@ -44,7 +44,7 @@ const NavBar = () => {
             ))} 
             </ul>
             
-            <div onClick={()=> setNav(!nav)} className='cursor-pointer pt-15 pr-4 z-10 text-gray-500 md:hidden'>
+            <div onClick={()=> setNav(!nav)} className='cursor-pointer mt-13 pr-4 z-10 text-gray-500 md:hidden'>
                 {nav ? <FaTimes size={30}/> : <FaBars size={30} />}
             </div>
            {nav && (
