@@ -43,7 +43,7 @@ const Home = () => {
             </div>
 
             <div className='my-23  transition-all duration-1000 p-10 rounded-xl '>
-                <img src={HeroImage} alt='my Profile' className=' rounded-2xl  md:w-full md:pl-[4dvw] md:ml-[4dvw] '></img>
+                <img src={HeroImage} alt='my Profile' className=' rounded-2xl lg:rounded-2xl  md:w-full md:pl-[4dvw] md:ml-[4dvw] '></img>
             </div>
             
         </div>
