@@ -29,10 +29,10 @@ const NavBar = () => {
         },
     ];
   return (
-    <div className="flex pt-[3dvh] justify-between items-center  w-full h-[5vw] px-[3vw]  md:pt-[3dvh] lg:pt-[1dvh] w-screen-30:pt-[1dvh] bg-black fixed">
+    <div className="flex  justify-between items-center  w-full h-[5vw] px-[3vw]  md:pt-[3dvh] lg:pt-[1dvh] w-screen-30:pt-[1dvh] bg-black fixed">
         <div >
             <div className="text-5xl  font-signature  text-yellow-100">
-                <h1 className='animate-pulse mt-[3dvh] md:mt-0 lg:mt-0 '>Ritam Chatterjee</h1>
+                <h1 className='animate-pulse mt-11 z-10 md:mt-0 lg:mt-0 '>Ritam Chatterjee</h1>
             </div>
         </div>
         
