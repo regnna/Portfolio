@@ -9,6 +9,7 @@ const About = () => {
                     About
                 </p>
             </div>
+            <div className='items-center'>
             <p className='text-xl mt-15 '>
               I am Ritam Chatterjee from West Bengal, India
               <br/>
@@ -25,8 +26,10 @@ const About = () => {
               My goto language is Python, I'm currently passonate on the field of Machine learning, Deep Learning and Data analysis
               <br/> 
               Playing chess,updating myself with latest Technlogy, latest entertainment are among my hobbies .
+              
             {/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum */}
             </p>
+            </div>
             {/* <br/>
             <p className='text-xl '>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
