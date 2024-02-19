@@ -68,7 +68,7 @@ const Experience = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500 text-yellow-200 p-1'>Experiences</p>
                 </div>
 
-                <p className='py-6'>These are the technologies I have dealt with</p>
+                <p className='text-center py-6'>These are the technologies I have dealt with</p>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-5 sm:px-0'>
             {
                 techs.map(({id,src,title,style})=>(
