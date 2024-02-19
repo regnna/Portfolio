@@ -9,7 +9,7 @@ const About = () => {
                     About
                 </p>
             </div>
-            <div className='items-center'>
+            <div className='justify justify-center'>
             <p className='text-xl mt-15 '>
               I am Ritam Chatterjee from West Bengal, India
               <br/>
